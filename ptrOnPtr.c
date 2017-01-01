@@ -6,7 +6,6 @@ int main() {
     int** p2p = &p;
     p = &i;
     int j = 0;
-
     // int* p = ;
     // int** p2p, j = 0;
 
