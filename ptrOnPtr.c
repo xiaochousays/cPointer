@@ -11,5 +11,9 @@ int main() {
 
     printf("i = %d\np = %d\np2p = %d\n**p2p = %d\nj = %d\n", i, \
         *p, **p2p, **p2p, j);
+
+    for(int i = 0; i < 8; ++i) {
+        printf("%s\n", ("xyze" + i));
+    }
 }
 // test conflict
