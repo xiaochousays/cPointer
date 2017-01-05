@@ -1,4 +1,6 @@
 #include <stdio.h>
+// #include <stdlib.h>
+#include <string.h>
 // feature1 change
 int main() {
     int i;
@@ -15,5 +17,10 @@ int main() {
     for(int i = 0; i < 8; ++i) {
         printf("%s\n", ("xyze" + i));
     }
+
+    strcpy("Hello\n", "Bye!\n");
+    printf("Hello\n");
+
+    return 0;
 }
 // test conflict
